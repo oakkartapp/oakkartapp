@@ -1,8 +1,14 @@
  import React from 'react'
+ import { Button } from "@/components/ui/button";
 
-const Page = () => {
+const Page  = () => {
   return (
-    <div>Page</div>
+    <div>
+      <h1 className="text-2xl underline">Welcome to my SaaS</h1>
+      <Button>
+          Let's get started
+      </Button>
+    </div>
   )
 }
 
